@@ -6,6 +6,7 @@ const Read = () => {
 
   const consult = () => {
     getItems().then((res) => {
+      //Recibe elementos de people.js , actualiza el estado del componente con estos elementos y los registra en la consola.
       setUsers(res);
       console.log(res);
     });
